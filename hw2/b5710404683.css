@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background: url(web/castle-wall.jpg)  ;
+	background-attachment: fixed;
+	font-size:0.8em;
+	color:#fff;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	height:1080px;
+	}
+	
+/*left column*/
+
+header{
+	position:absolute;
+	top:0;
+	left:0;
+	
+	height:1080px;
+	width:100%;
+	}
+
+.summary{
+	font-size:1.0em;
+	color: #4169E1;
+	position:absolute;
+	left:1000px;
+	top:60px;
+	height:140px;
+	
+	text-align:center;
+	width:230px;
+	z-index:3;
+	}
+	
+.summary a{ text-transform:uppercase; }
+	
+.preamble, .supporting{
+	position:relative;
+	text-align:justify;
+	width:370px;
+	top:302px;
+	left:150px;
+	z-index:4;
+	}
+	
+.preamble h3, .supporting h3{ margin-top:40px; 
+}
+	
+
+section.intro div.preamble 		{ 
+	
+	width:50%; 
+	background:rgba(255,255,255,0.9); 
+	color:#333; margin-left:-30%; 
+	padding:5% 5% 5% 30%; 
+}	
+
+
+div.explanation 				{ 
+		width:171%; 
+		color:#fff;
+		
+		margin-left:34%; padding:5% 10% 5% 20%;
+		background:rgba(153,51,51,0.8)
+}	
+
+div.participation 				{ 
+		width:235%; 
+		color:#fff; padding:60%; 
+		
+	
+	
+		padding:5% 5% 5% 30%; 
+		margin-left:-40%; padding:5% 10% 5% 30%;
+		background:rgba(255,204,153,0.9)
+}
+div.benefits		{ 
+	
+ 
+	width:171%; 
+	color:#fff;
+	margin-left:34%; padding:5% 10% 5% 20%;
+	background:rgba(51,102,204,0.6)
+}	
+div.requirements	{
+		
+	width:235%; 
+	color:#fff; margin-left:-45%; 
+	padding:5% 5% 5% 40%; 
+	background:rgba(204,153,153,0.5)
+	}
+.supporting{
+	width:370px;
+	left:150px;
+	margin-top:0;
+	padding-bottom:40px;
+	}
+	
+* html .supporting{ padding-bottom:240px; }
+
+
+/*right column*/
+
+.sidebar{
+	position: absolute;
+	top: 302px;
+	width: 205px;
+	
+	left: 402px;
+	font-size: 0.85em;
+	color: #336600	;
+	margin-left: 40%;
+	
+	padding: 1% 1% 1% 1%;
+	background: rgba(102,204,153,0.8);
+	border-radius: 10px;
+	
+	
+/*	font-weight: normal;
+	padding: 5% 15% 140% 5%;
+	position: absolute;
+	top: 302px;
+	width: 205px;
+	left: 385px;
+	font-size: 0.85em;
+	color: #336600	;
+	margin-left: 40%;
+	
+	padding: 5% 15% 140% 5%;*/
+	}
+	
+.sidebar h3{ padding:0; margin:0; }
+a:link, a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+	border-bottom:#a9e0ff dotted 1px;
+	}
+
+a:hover, a:active{
+	color:#fff;
+	border-bottom:#fff dotted 1px;
+	}
+	
+abbr, abbr{
+	border-bottom:#fff dotted 1px;
+	cursor:help;
+	}
+	
+/*lists*/
+
+ul{
+	margin:0;
+	padding:0;
+	}
+
+ul li{ list-style:none; }	
+
+
+/* hidden stuff */
+h1{
+	
+		font-family:"Euclid Fraktur", "Old English Text MT", fantasy, serif;
+		color: #000000;
+ 		padding : 40px 80px 80px 80px;
+  		font-size: 90px;
+ 		text-align: left;
+  		
+  }
+h2,
+.extra1,
+.extra2,
+.extra3,
+.extra4,
+.extra5,
+.extra6 { display:none; }
+
+h3 {
+	font-family:"tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif; /* Weights from Typekit: 200, 900 */
+	font-size:2.25em; font-weight:200; /* Thin */ letter-spacing:1px; line-height:1em; padding:0.5em 0 0.25em 0;
+
+}
+	/* 800 and up */	
+	@media screen and (min-width:800px) {
+
+		body 						{ font-size:100%; }
+
+	}
+
+	/* 900 and up */	
+	@media screen and (min-width:900px) {
+
+		body 						{ font-size:110%; }
+
+	}
