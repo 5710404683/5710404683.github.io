@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0  
+}
+body {
+	font-family: 'Bree Serif';
+	font-size: 22px;
+    background-color: lightblue;
+    margin: 10px auto 0;
+  	width: 600px;
+    overflow: auto;
+    padding: 40px 30px;
+    /*width: 70%;*/
+}
+
+.allelement {
+    /*overflow: auto;*/
+    /*padding: 60px 30px;*/
+
+}
+
+
+.allelement h1 {
+  /*text-align:left; */
+  width: 30%;
+  color: #666;
+  text-shadow: 1px 1px 0px #FFF;
+  margin:20px 0px 0px 0px
+}
+
+.allelement p {
+  display:block;
+
+  /*float:right;*/
+  width:300px;
+  /*padding-top:10px;*/
+  font: 14px/16px'Bree Serif', Georgia, serif;
+}
+
+#allelement input {
+  /*position: relative;*/
+  /*float:left;*/
+  border-radius: 50px;
+  width:255px;
+  border:0px;
+ /* padding-right: 50px;*/
+  /*color:#ff0000;*/
+  padding:10px 10px 10px 30px;
+  font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
+  margin-bottom:20px;
+}
+#allelement .birthEle{
+
+  /*vertical-align:top;*/
+}
+#allelement .birthEle input{
+  width:50px;
+}
+#allelement input[type=text]:focus {
+    border: 3px solid #555;
+}
+.allelement .myForm input.fname {
+  background:#222222 url(lab3/person.png) 
+  no-repeat 10px 8px;
+}
+.leftSide{
+  float:left;
+  /*width: 45%;*/
+ /*padding: 0px 15px 0px 0px;*/
+}
+.allelement .rightSide{
+  float:right;
+  width: 45%;
+/*padding: 0px 15px 0px 0px;*/
+
+}
+
+/*#contact */
+
+#allelement #birthEle p{
+ /* float:left;*/
+  width:255px;
+  border:0px;
+  color:##555;
+  padding:10px 10px 10px 30px;
+  font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
+  margin-bottom:10px;
+
+}
+button[type=button] {
+    background-color: #4CAF50;
+    /*margin-left:70%*/
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-family: 'Bree Serif';
+	   font-size: 16px;
+    /*text-decoration: none;*/
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+select,select option{
+    /*float:left;*/
+ /*   margin-left:60px;*/
+  /*margin-left:50%*/
+
+    background-color: #FFFF66;
+    /*border: none;*/
+    border-radius: 50px;
+    color: #696969;
+    padding: 5px 10px;
+    font-family: 'Bree Serif';
+	font-size: 16px;
+    /*text-decoration: none;*/
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+
+.allelement .birth{
+  width: 30%;
+  color: #666;
+  text-shadow: 1px 1px 0px #FFF;
+  margin:50px 0px 0px 0px
+
+}
+button:hover {
+    background-color: #3e8e41;
+}
+
